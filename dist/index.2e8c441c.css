@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("RedHatDisplay-VariableFont_wght.7932a905.ttf");
+  font-weight: 500 900;
+}
+* {
+  box-sizing: content-box;
+}
+html {
+  background-image: url("pattern-background-mobile.7cb7cd2f.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: "Red Hat Display";
+  color: #7280a7;
+  background-color: #e0e8ff;
+}
+body {
+  font-size: 16px;
+  font-weight: 500;
+}
+header {
+  text-align: center;
+}
+header img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px 18px 0px 0px;
+}
+header h2 {
+  margin: 1.5rem auto;
+}
+header h2,
+.plan-name {
+  color: #1f2f56;
+  font-weight: 900;
+}
+article {
+  background-color: white;
+  max-width: 90%;
+  margin: 3rem auto;
+  border-radius: 18px;
+}
+.card-content {
+  padding: 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.offer-copy {
+  text-align: center;
+  margin: 0 auto 1.5rem;
+  font-size: 0.95rem;
+  width: 86%;
+  line-height: 1.8rem;
+}
+.pricing-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: baseline;
+  background-color: #f5f7ff;
+  padding: 1rem;
+  border-radius: 9px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+.pricing-information {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+.change-plan-link {
+  font-weight: 900;
+  color: #f5f7ff;
+}
+.change-plan-link:hover {
+  opacity: 75%;
+}
+.payment-button,
+.cancel-button {
+  text-align: center;
+  text-decoration: none;
+}
+.payment-button {
+  color: white;
+  font-weight: 700;
+  background-color: #3829e0;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 9px;
+  box-shadow: 0px 12px 33px -3px rgba(56, 41, 224, 0.75);
+  -webkit-box-shadow: 0px 12px 33px -3px rgba(56, 41, 224, 0.75);
+  -moz-box-shadow: 0px 12px 33px -3px rgba(56, 41, 224, 0.75);
+}
+.payment-button:hover {
+  background-color: rgba(56, 41, 224, 0.75);
+}
+.cancel-button {
+  text-align: center;
+  color: #e0e8ff;
+  color: #3829e0;
+  color: #7280a7;
+  font-weight: 900;
+}
+.cancel-button:hover {
+  color: #1f2f56;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+@media only screen and (min-width: 1440px) {
+  html {
+    background-image: url("pattern-background-desktop.ba4c5167.svg");
+    background-position: center -300px;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    background-size: cover;
+  }
+
+  article {
+    max-width: 30%;
+  }
+
+  .offer-copy {
+    margin: 0 auto 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+/*# sourceMappingURL=index.2e8c441c.css.map */

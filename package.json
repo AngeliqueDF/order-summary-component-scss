@@ -11,6 +11,7 @@
   "author": "Angélique D. Faye",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2"
   }
 }

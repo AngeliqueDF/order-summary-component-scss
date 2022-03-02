@@ -1,0 +1,161 @@
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+$btn-shadow: 0px 12px 33px -3px rgba(56,41,224,0.75);
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./../fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf');
+  font-weight: 500 900;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+html {
+  background-image: url('./../images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Red Hat Display';
+  color:  $desaturated-blue;
+  background-color: $pale-blue;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header {
+  text-align: center;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px 18px 0px 0px;
+  }
+  h2 {
+    margin: 1.5rem auto;
+  }
+}
+
+header h2,
+.plan-name{
+  color: $dark-blue;
+  font-weight: 900;
+}
+
+article {
+  background-color: white;
+  max-width: 90%;
+  margin: 3rem auto;
+  border-radius: 18px;
+}
+
+.card-content {
+  padding: 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-copy {
+  text-align: center;
+  margin: 0 auto 1.5rem;
+  font-size: 0.95rem;
+  width: 86%;
+  line-height: 1.8rem;
+}
+
+.pricing-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: baseline;
+  background-color: $very-pale-blue;
+  padding: 1rem;
+  border-radius: 9px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.pricing-information {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.change-plan-link {
+  font-weight: 900;
+  color: $very-pale-blue;
+  &:hover {
+    opacity: 75%;
+  }
+}
+
+.payment-button,
+.cancel-button {
+  text-align: center;
+  text-decoration: none;
+}
+
+.payment-button {
+  color: white;
+  font-weight: 700;
+
+  background-color: $bright-blue;
+
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 9px;
+
+  box-shadow: $btn-shadow;
+  -webkit-box-shadow: $btn-shadow;
+  -moz-box-shadow: $btn-shadow;
+
+  &:hover {
+    background-color: hsla(245, 75%, 52%, 75%);
+  }
+}
+
+.cancel-button {
+  text-align: center;
+  color:  $pale-blue;
+  color:  $bright-blue;
+  color:  $desaturated-blue;
+  font-weight: 900;
+
+  &:hover {
+    color: $dark-blue;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+  html {
+    background-image: url('./../images/pattern-background-desktop.svg');
+    background-position: center -300px;
+    background-repeat: no-repeat;
+    background-color: $pale-blue;
+    background-size: cover;
+  }
+
+  article {
+    max-width: 30%;
+  }
+
+  .offer-copy {
+    margin: 0 auto 1.25rem;
+    line-height: 1.5rem;
+  }
+}
