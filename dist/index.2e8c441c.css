@@ -7,14 +7,15 @@
   box-sizing: content-box;
 }
 html {
-  background-image: url("pattern-background-mobile.7cb7cd2f.svg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   font-family: "Red Hat Display";
   color: #7280a7;
-  background-color: #e0e8ff;
 }
 body {
+  background-image: url("pattern-background-mobile.7cb7cd2f.svg");
+  background-position: center -20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e0e8ff;
   font-size: 16px;
   font-weight: 500;
 }
@@ -34,7 +35,7 @@ header h2,
   color: #1f2f56;
   font-weight: 900;
 }
-article {
+section {
   background-color: white;
   max-width: 90%;
   margin: 3rem auto;
@@ -120,7 +121,7 @@ article {
     background-size: cover;
   }
 
-  article {
+  section {
     max-width: 30%;
   }
 

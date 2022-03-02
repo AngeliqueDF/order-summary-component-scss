@@ -16,15 +16,16 @@ $btn-shadow: 0px 12px 33px -3px rgba(56,41,224,0.75);
 }
 
 html {
-  background-image: url('./../images/pattern-background-mobile.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   font-family: 'Red Hat Display';
   color:  $desaturated-blue;
-  background-color: $pale-blue;
 }
 
 body {
+  background-image: url('./../images/pattern-background-mobile.svg');
+  background-position: center -20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $pale-blue;
   font-size: 16px;
   font-weight: 500;
 }
