@@ -32,7 +32,7 @@
 ## Links
 
 <p>
-<a href="/.github/README.md">GitHub repo</a> • <a href="/.github/CONTRIBUTING.md">Live demo </a>
+<a href="https://github.com/AngeliqueDF/order-summary-component-challenge">GitHub repo</a> • <a href="">Live demo </a>
 </p>
 
 <br />
@@ -43,7 +43,7 @@
 2. ``cd MY-FOLDER-NAME``
 3. ``npm install``
 4. `` npm start ``
-5. visit [http://localhost:1234](``http://localhost:1234``)
+5. visit [http://localhost:1234](http://localhost:1234)
 
 <br />
 
