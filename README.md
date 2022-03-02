@@ -9,7 +9,6 @@
   - [How I built this project](#how-i-built-this-project)
     - [What I learned](#what-i-learned)
   - [Sources](#sources)
-  - [Useful references](#useful-references)
   - [Useful extensions](#useful-extensions)
 
 # Order Summary Component challenge
@@ -40,7 +39,7 @@
 
 ## How to run the project
 
-1. ``git clone HTTPS_REPO_URL MY-FOLDER-NAME``
+1. ``git clone https://github.com/AngeliqueDF/order-summary-component-frontend-mentor.git MY-FOLDER-NAME``
 2. ``cd MY-FOLDER-NAME``
 3. ``npm install``
 4. `` npm start ``
@@ -57,18 +56,18 @@
 
 ## Description
 
-This project is a component presenting an order summary for a digital streaming service. 
+This project is a component presenting an order summary for a digital streaming service.
 
-<figure style="text-align:center;">
+It is my solution to the Order Summary Component challenge from Frontend Mentor.
+
+<p align="center">
 <img src="./src/images/screenshot_mobile.png" width="375" height="656px" alt="Screenshot of the order summary component on mobile.">
-<figcaption>Screenshot of the order summary component on mobile.</figcaption>
-</figure>
+</p>
 
 ## Features
 
 - Responsive.
 - Semantic and accessible HTML5.
-- CSS written with SCSS.
 
 <br />
 
@@ -78,6 +77,8 @@ This project is a component presenting an order summary for a digital streaming 
 - ``SCSS``.
 - ``Flexbox``.
 - Bundled with ``Parcel.js``.
+
+<br />
 
 ## How I built this project
 
@@ -97,10 +98,6 @@ Any suggestion on the markup is welcome!
 ## Sources
 
 - [Order summary component by Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
-
-## Useful references
-
-1. Resource
 
 ## Useful extensions
 
