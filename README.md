@@ -14,7 +14,7 @@
 
 # Order Summary Component challenge
 
-![Screenshot of the order summary component challenge ](./src/images/screenshot.png)
+![Screenshot of the order summary component challenge ](./src/images/desktop-screenshot.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -59,10 +59,9 @@
 
 This project is a component presenting an order summary for a digital streaming service. 
 
-<figure style="text-align:center;">
-<img src="./src/images/screenshot_mobile.png" width="375" height="656px" alt="Screenshot of the order summary component on mobile.">
-<figcaption>Screenshot of the order summary component on mobile.</figcaption>
-</figure>
+<p align="center">
+<img src="./src/images/mobile-screenshot.png" width="375" height="660px" alt="Screenshot of the order summary component on mobile.">
+</p>
 
 ## Features
 
