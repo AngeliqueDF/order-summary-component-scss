@@ -9,11 +9,12 @@
   - [How I built this project](#how-i-built-this-project)
     - [What I learned](#what-i-learned)
   - [Sources](#sources)
+  - [Useful references](#useful-references)
   - [Useful extensions](#useful-extensions)
 
 # Order Summary Component challenge
 
-![Screenshot of the order summary component challenge ](./src/images/screenshot.png)
+![Screenshot of the order summary component challenge ](./src/images/desktop-screenshot.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -61,8 +62,7 @@ This project is a component presenting an order summary for a digital streaming 
 It is my solution to the Order Summary Component challenge from Frontend Mentor.
 
 <p align="center">
-<img src="./src/images/screenshot_mobile.png" width="375" height="656px" alt="Screenshot of the order summary component on mobile.">
-</p>
+<img src="./src/images/mobile-screenshot.png" width="375" height="660px" alt="Screenshot of the order summary component on mobile.">
 
 ## Features
 
@@ -76,7 +76,7 @@ It is my solution to the Order Summary Component challenge from Frontend Mentor.
 - Semantic ``HTML5``.
 - ``SCSS``.
 - ``Flexbox``.
-- Bundled with ``Parcel.js``.
+- Bundled with ``parcel`` (v2).
 
 <br />
 
@@ -87,7 +87,7 @@ It is my solution to the Order Summary Component challenge from Frontend Mentor.
 
 ### What I learned
 
-I added ``Parcel`` to have an idea of how to use it compared to ``Webpack`` and ``Gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! This was ideal for such a small project.
+I added ``Parcel`` to have an idea of how to use it compared to ``Webpack`` and ``Gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed for that was installed automatically. This was ideal for such a small project.
 
 The most challenging part was choosing the right HTML elements. And I still find that I relied to much on ``<div>`` elements.
 
@@ -99,6 +99,13 @@ Any suggestion on the markup is welcome!
 
 - [Order summary component by Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
+<<<<<<< HEAD
+## Useful references
+
+1. [Why You Should Choose HTML5 article Over section](https://www.smashingmagazine.com/2020/01/html5-article-section/)
+
+=======
+>>>>>>> main
 ## Useful extensions
 
 - [W3C Web Validator - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
