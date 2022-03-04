@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  margin: 0;
   background-image: url('./../images/pattern-background-mobile.svg');
   background-position: center -20px;
   background-repeat: no-repeat;
@@ -144,11 +145,19 @@ section {
 @media only screen and (min-width: 1440px) {
 
   html {
+  main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
     background-image: url('./../images/pattern-background-desktop.svg');
-    background-position: center -300px;
+    background-position: center top;
     background-repeat: no-repeat;
     background-color: $pale-blue;
-    background-size: cover;
+    background-size: contain;
   }
 
   section {
