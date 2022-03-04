@@ -39,7 +39,7 @@ header {
     border-radius: 18px 18px 0px 0px;
   }
   h2 {
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 0.75rem;
   }
 }
 
@@ -49,6 +49,7 @@ header h2,
   font-weight: 900;
 }
 
+
 section {
   background-color: white;
   max-width: 90%;
@@ -57,7 +58,7 @@ section {
 }
 
 .card-content {
-  padding: 0 1rem 1rem;
+  padding: 0 1rem 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -70,11 +71,22 @@ section {
   line-height: 1.8rem;
 }
 
+.music-icon {
+  width: 3.3rem;
+}
+
+.plan-name,
+.plan-price {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
 .pricing-plan {
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-content: baseline;
+  
   background-color: $very-pale-blue;
   padding: 1rem;
   border-radius: 9px;
@@ -144,7 +156,10 @@ section {
 
 @media only screen and (min-width: 1440px) {
 
-  html {
+  header h2 {
+    margin: 2rem auto 1rem;
+    font-size: 1.7rem;
+  }
   main {
     min-height: 100vh;
     display: flex;
@@ -164,8 +179,17 @@ section {
     max-width: 30%;
   }
 
+  .card-content {
+    padding: 0 3rem 3rem;
+  }
+
   .offer-copy {
-    margin: 0 auto 1.25rem;
+    margin: 0 0px 1.25rem;
     line-height: 1.5rem;
+    width: 100%;
+  }
+
+  .plan-name {
+    margin-right: 2rem;
   }
 }
