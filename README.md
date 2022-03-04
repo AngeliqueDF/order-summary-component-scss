@@ -100,7 +100,7 @@ Any suggestion on the markup is welcome!
 
 ## Useful references
 
-1. Resource
+1. [Why You Should Choose HTML5 article Over section](https://www.smashingmagazine.com/2020/01/html5-article-section/)
 
 ## Useful extensions
 

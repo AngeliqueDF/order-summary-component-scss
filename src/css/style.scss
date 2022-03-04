@@ -50,15 +50,15 @@ header h2,
 }
 
 
-section {
+article {
   background-color: white;
   max-width: 90%;
-  margin: 3rem auto;
+  margin: 4rem auto 1rem;
   border-radius: 18px;
 }
 
 .card-content {
-  padding: 0 1rem 2rem;
+  padding: 0 1rem 1.8rem;
   display: flex;
   flex-direction: column;
 }
@@ -175,7 +175,7 @@ section {
     background-size: contain;
   }
 
-  section {
+  article {
     max-width: 30%;
   }
 
