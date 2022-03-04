@@ -99,13 +99,10 @@ Any suggestion on the markup is welcome!
 
 - [Order summary component by Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
-<<<<<<< HEAD
 ## Useful references
 
 1. [Why You Should Choose HTML5 article Over section](https://www.smashingmagazine.com/2020/01/html5-article-section/)
 
-=======
->>>>>>> main
 ## Useful extensions
 
 - [W3C Web Validator - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
