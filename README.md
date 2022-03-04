@@ -76,7 +76,7 @@ This project is a component presenting an order summary for a digital streaming 
 - Semantic ``HTML5``.
 - ``SCSS``.
 - ``Flexbox``.
-- Bundled with ``Parcel.js``.
+- Bundled with ``parcel`` (v2).
 
 ## How I built this project
 
@@ -85,7 +85,7 @@ This project is a component presenting an order summary for a digital streaming 
 
 ### What I learned
 
-I added ``Parcel`` to have an idea of how to use it compared to ``Webpack`` and ``Gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! This was ideal for such a small project.
+I added ``Parcel`` to have an idea of how to use it compared to ``Webpack`` and ``Gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed for that was installed automatically. This was ideal for such a small project.
 
 The most challenging part was choosing the right HTML elements. And I still find that I relied to much on ``<div>`` elements.
 
