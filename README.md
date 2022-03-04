@@ -33,18 +33,18 @@
 ## Links
 
 <p>
-<a href="/.github/README.md">GitHub repo</a> • <a href="/.github/CONTRIBUTING.md">Live demo </a>
+<a href="https://github.com/AngeliqueDF/order-summary-component-challenge">GitHub repo</a> • <a href="">Live demo </a>
 </p>
 
 <br />
 
 ## How to run the project
 
-1. ``git clone HTTPS_REPO_URL MY-FOLDER-NAME``
+1. ``git clone https://github.com/AngeliqueDF/order-summary-component-frontend-mentor.git MY-FOLDER-NAME``
 2. ``cd MY-FOLDER-NAME``
 3. ``npm install``
 4. `` npm start ``
-5. visit [http://localhost:1234](``http://localhost:1234``)
+5. visit [http://localhost:1234](http://localhost:1234)
 
 <br />
 
@@ -57,17 +57,17 @@
 
 ## Description
 
-This project is a component presenting an order summary for a digital streaming service. 
+This project is a component presenting an order summary for a digital streaming service.
+
+It is my solution to the Order Summary Component challenge from Frontend Mentor.
 
 <p align="center">
 <img src="./src/images/mobile-screenshot.png" width="375" height="660px" alt="Screenshot of the order summary component on mobile.">
-</p>
 
 ## Features
 
 - Responsive.
 - Semantic and accessible HTML5.
-- CSS written with SCSS.
 
 <br />
 
@@ -77,6 +77,8 @@ This project is a component presenting an order summary for a digital streaming 
 - ``SCSS``.
 - ``Flexbox``.
 - Bundled with ``parcel`` (v2).
+
+<br />
 
 ## How I built this project
 
@@ -97,10 +99,13 @@ Any suggestion on the markup is welcome!
 
 - [Order summary component by Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
+<<<<<<< HEAD
 ## Useful references
 
 1. [Why You Should Choose HTML5 article Over section](https://www.smashingmagazine.com/2020/01/html5-article-section/)
 
+=======
+>>>>>>> main
 ## Useful extensions
 
 - [W3C Web Validator - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
