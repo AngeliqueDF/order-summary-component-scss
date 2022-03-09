@@ -50,6 +50,8 @@
 
 ## The challenge
 
+> Your challenge is to build out this order summary card component and get it looking as close to the design as possible.[...]
+> 
 > Your users should be able to:
 > - See hover states for interactive elements.
 > 
@@ -57,9 +59,14 @@
 
 ## Description
 
-This project is a component presenting an order summary for a digital streaming service.
+This project is an order summary card component for a digital streaming service.
 
 It is my solution to the Order Summary Component challenge from Frontend Mentor.
+
+The most challenging part was deciding on the HTML structure with the information given. 
+
+I still find that I relied to much on ``<div>`` elements.
+Any suggestion on the markup is welcome!
 
 <p align="center">
 <img src="./src/images/mobile-screenshot.png" width="375" height="660px" alt="Screenshot of the order summary component on mobile.">
@@ -87,11 +94,24 @@ It is my solution to the Order Summary Component challenge from Frontend Mentor.
 
 ### What I learned
 
-I added ``Parcel`` to have an idea of how to use it compared to ``Webpack`` and ``Gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed for that was installed automatically. This was ideal for such a small project.
+I added ``parcel`` to have an idea of how to use it compared to ``webpack`` and ``gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed for that was installed automatically. 
 
-The most challenging part was choosing the right HTML elements. And I still find that I relied to much on ``<div>`` elements.
+All it required to work was:
 
-Any suggestion on the markup is welcome!
+1. Installing ``parcel``.
+2. Adding the scripts needed, see the package.json:
+  ```json
+  "source": "/src/index.html",
+  "scripts": {
+    "start": "npm run build && parcel serve index.html",
+    "dev": "parcel",
+    "build": "parcel build --dist-dir ." // changed output directory with --dist-dir for simpler hosting on GitHub Pages
+  },
+  ```
+
+I was then able to then start a local server, use live reload for development (``npm run dev``), and minify all files (``npm run build``) then output them into the root directory.
+
+This was ideal for such a small project.
 
 <br />
 

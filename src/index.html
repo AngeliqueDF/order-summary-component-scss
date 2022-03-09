@@ -17,35 +17,38 @@
 <body>
 
   <main>
+    <form action="POST">
+      <article>
 
-    <article>
-      <header>
-        <img src="./images/illustration-hero.svg" alt="Young woman listening to music with the app.">
-        <h2>Order Summary</h2>
-      </header>
+        <header>
+          <img src="./images/illustration-hero.svg" alt="Young woman listening to music with the app.">
+          <h2>Order Summary</h2>
+        </header>
 
-      <div class="card-content">
+        <div class="card-content">
 
-        <p class="offer-copy">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
-          you like!</p>
+          <p class="offer-copy">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
+            you like!</p>
 
-        <div class="pricing-plan">
+          <div class="pricing-plan">
 
-          <img class="music-icon" src="./images/icon-music.svg" alt="">
+            <img class="music-icon" src="./images/icon-music.svg" alt="">
 
-          <div class="pricing-information">
-            <div class="plan-name">Annual Plan</div>
-            <div class="plan-price">$59.99/year </div>
+            <div class="pricing-information">
+              <input type="hidden" name="plan-chosen" value="annual-plan">
+              <div class="plan-name">Annual Plan</div>
+              <div class="plan-price">$59.99/year </div>
+            </div>
+
+            <a class="change-plan-link" href="javascript:void(0)">Change</a>
           </div>
+          <input type="submit" class="payment-button" value="Proceed to Payment" />
 
-          <a class="change-plan-link" href="javascript:void(0)">Change</a>
+          <button class="cancel-button">Cancel Order</button>
+
         </div>
-
-        <a class="payment-button" href="javascript:void(0)">Proceed to Payment</a>
-        <a class="cancel-button" href="javascript:void(0)">Cancel Order</a>
-      </div>
-    </article>
-
+      </article>
+    </form>
   </main>
 
 
