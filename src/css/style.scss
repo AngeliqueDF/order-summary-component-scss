@@ -107,20 +107,26 @@ article {
     opacity: 75%;
   }
 }
+.cancel-button {
+  background-color: transparent;
+}
 
 .payment-button,
 .cancel-button {
   text-align: center;
   text-decoration: none;
+  border: none;
+  font-weight: 700;
+  font-family: 'Red Hat Display';
+  font-size: 1rem;
 }
 
 .payment-button {
+  padding: 1rem;
   color: white;
-  font-weight: 700;
 
   background-color: $bright-blue;
 
-  padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 9px;
 
