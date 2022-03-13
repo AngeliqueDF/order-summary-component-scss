@@ -26,46 +26,46 @@
 
 ## Overview
 
-*A tiny component to present an order summary.*
+_A tiny component to present an order summary._
 
 <br />
 
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/order-summary-component-challenge">GitHub repo</a> • <a href="">Live demo </a>
+<a href="https://github.com/AngeliqueDF/order-summary-component-challenge">GitHub repository</a>
+ <!-- • <a href="">Live demo </a> -->
 </p>
 
 <br />
 
 ## How to run the project
 
-1. ``git clone https://github.com/AngeliqueDF/order-summary-component-frontend-mentor.git MY-FOLDER-NAME``
-2. ``cd MY-FOLDER-NAME``
-3. ``npm install``
-4. `` npm start ``
-5. visit [http://localhost:1234](http://localhost:1234)
+1. `git clone https://github.com/AngeliqueDF/order-summary-component-frontend-mentor.git MY-FOLDER-NAME`
+2. `cd MY-FOLDER-NAME`
+3. `npm install`
+4. `npm start`
+5. Visit [http://localhost:1234](http://localhost:1234)
 
 <br />
 
 ## The challenge
 
 > Your challenge is to build out this order summary card component and get it looking as close to the design as possible.[...]
-> 
+>
 > Your users should be able to:
+>
 > - See hover states for interactive elements.
-> 
-> *[From Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)*
+>
+> _[From Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)_
 
 ## Description
 
-This project is an order summary card component for a digital streaming service.
+This project is my solution to the Order Summary Component challenge from Frontend Mentor.
 
-It is my solution to the Order Summary Component challenge from Frontend Mentor.
+The most challenging part was deciding on the HTML structure with the information given.
 
-The most challenging part was deciding on the HTML structure with the information given. 
-
-I still find that I relied to much on ``<div>`` elements.
+I still find that I relied to much on `<div>` elements.
 Any suggestion on the markup is welcome!
 
 <p align="center">
@@ -80,36 +80,40 @@ Any suggestion on the markup is welcome!
 
 ## Technologies
 
-- Semantic ``HTML5``.
-- ``SCSS``.
-- ``Flexbox``.
-- Bundled with ``parcel`` (v2).
+- Semantic `HTML5`.
+- `SCSS`.
+- `Flexbox`.
+- Bundled with `parcel` (v2).
 
 <br />
 
 ## How I built this project
 
- 1. Started by structuring the page with semantic and accessible HTML.
- 2. Styled the page with a mobile-first approach.
+1.  Started by structuring the page with semantic and accessible HTML.
+2.  Styled the page with a mobile-first approach.
 
 ### What I learned
 
-I added ``parcel`` to have an idea of how to use it compared to ``webpack`` and ``gulp``. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed for that was installed automatically. 
+I added `parcel` to have an idea of how to use it compared to `webpack` and `gulp`. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed was installed automatically.
 
 All it required to work was:
 
-1. Installing ``parcel``.
-2. Adding the scripts needed, see the package.json:
-  ```json
-  "source": "/src/index.html",
-  "scripts": {
-    "start": "npm run build && parcel serve index.html",
-    "dev": "parcel",
-    "build": "parcel build --dist-dir ." // changed output directory with --dist-dir for simpler hosting on GitHub Pages
-  },
-  ```
+1. Installing `parcel`.
+2. Adding the scripts needed, in package.json:
 
-I was then able to then start a local server, use live reload for development (``npm run dev``), and minify all files (``npm run build``) then output them into the root directory.
+```json
+"source": "/src/index.html",
+"scripts": {
+  "start": "npm run build && parcel serve index.html",
+  "dev": "parcel",
+  "build": "parcel build --dist-dir ." // changed output directory with --dist-dir for simpler hosting on GitHub Pages
+},
+```
+
+With this configuration:
+
+- `npm run dev` starts a local server, enables live reload for development.
+- `npm run build` minifies all files then outputs them into the root directory.
 
 This was ideal for such a small project.
 
@@ -125,4 +129,4 @@ This was ideal for such a small project.
 
 ## Useful extensions
 
-- [W3C Web Validator - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+- [W3C Web Validator - Visual Studio Marketplace. I use this extension to check the validity of HTML code from the editor.](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
