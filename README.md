@@ -1,17 +1,3 @@
-- [Order Summary Component challenge](#order-summary-component-challenge)
-  - [Overview](#overview)
-  - [Links](#links)
-  - [How to run the project](#how-to-run-the-project)
-  - [The challenge](#the-challenge)
-  - [Description](#description)
-  - [Features](#features)
-  - [Technologies](#technologies)
-  - [How I built this project](#how-i-built-this-project)
-    - [What I learned](#what-i-learned)
-  - [Sources](#sources)
-  - [Useful references](#useful-references)
-  - [Useful extensions](#useful-extensions)
-
 # Order Summary Component challenge
 
 ![Screenshot of the order summary component challenge ](./src/images/desktop-screenshot.png)
