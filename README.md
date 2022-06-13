@@ -82,24 +82,23 @@ Any suggestion on the markup is welcome!
 
 I added `parcel` to have an idea of how to use it compared to `webpack` and `gulp`. I didn't have to write any JavaScript or add any loader, even for SCSS support! The plugin needed was installed automatically.
 
-All it required to work was:
+All it required to work was (updated):
 
 1. Installing `parcel`.
-2. Adding the scripts needed, in package.json:
+2. Start working using `npm run build`:
 
 ```json
 "source": "/src/index.html",
-"scripts": {
-  "start": "npm run build && parcel serve index.html",
-  "dev": "parcel",
-  "build": "parcel build --dist-dir ." // changed output directory with --dist-dir for simpler hosting on GitHub Pages
-},
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
 ```
 
 With this configuration:
-
-- `npm run dev` starts a local server, enables live reload for development.
-- `npm run build` minifies all files then outputs them into the root directory.
+- `"source": "/src/index.html"` indicates the path to the entry of the app.
+- `npm start` starts a local server, enables live reload for development.
+- `npm run build` generate a `/dist` folder to use for deployment.
 
 This was ideal for such a small project.
 
