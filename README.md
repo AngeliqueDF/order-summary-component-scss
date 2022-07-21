@@ -19,8 +19,7 @@ _A tiny component to present an order summary._
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/order-summary-component-challenge">GitHub repository</a>
- <!-- • <a href="">Live demo </a> -->
+<a href="https://github.com/AngeliqueDF/order-summary-component-challenge">GitHub repository</a> • <a href="https://cozy-entremet-aecca6.netlify.app/">Live demo </a>
 </p>
 
 <br />
